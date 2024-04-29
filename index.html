@@ -16,8 +16,103 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section data-auto-animate>
+					<h1>MVC, MVVM, and MVP</h1>
+				</section>
+				<section>
+					<section>
+					<h2>Why?</h2>
+					</section>
+					<section data-background="https://img.freepik.com/premium-photo/blueprint-background-with-black-white-linesblack-map-city_1016228-3673.jpg">
+					 <h3>Why we use architectural patterns?</h3>
+					 <ul>
+						<li>Organize</li>
+						<li>Reduce bugs</li>
+						<li>Easily follow your work</li>
+					 </ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Model-View-Controlle (MVC)</h2>
+					</section>
+					<section data-background="https://img.freepik.com/premium-photo/blueprint-background-with-black-white-linesblack-map-city_1016228-3673.jpg">
+						<h3>Model-View-Controller (MVC)</h3>
+						<ul>
+						   <li>Model - contains all of the business logic.
+						</li>
+						   <li>View - responsible for presenting information to users.
+						</li>
+						   <li>Controller - managing interactions between the Model and the View.
+						</li>
+						</ul>
+					   </section>
+					   <section data-background="https://img.freepik.com/premium-photo/blueprint-background-with-black-white-linesblack-map-city_1016228-3673.jpg">
+						<h3>Model-View-Controller (MVC)</h3>
+						<img src="https://media.geeksforgeeks.org/wp-content/uploads/20201002214740/MVCSchema-660x405.png" alt="The Model—View—Controller(MVC) Pattern">
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Model-View-Presenter (MVP)</h2>
+					</section>
+					<section data-background="https://img.freepik.com/premium-photo/blueprint-background-with-black-white-linesblack-map-city_1016228-3673.jpg">
+						<h3>Model-View-Presenter (MVP)</h3>
+						<ul>
+						   <li>Model - contains all of the business logic.
+						</li>
+						   <li>View - responsible for presenting information to users.
+						</li>
+						   <li>Presenter - fetch the data from the model and applies the UI logic to decide what to display.
+						</li>
+						</ul>
+					   </section>
+					   <section data-background="https://img.freepik.com/premium-photo/blueprint-background-with-black-white-linesblack-map-city_1016228-3673.jpg">
+						<h3>Model-View-Presenter (MVP)</h3>
+						<img src="https://media.geeksforgeeks.org/wp-content/uploads/20201024233154/MVPSchema.png" alt="Model-View-Presenter (MVP) Pattern">
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Model-View-ViewModel (MVVM)</h2>
+					</section>
+					<section data-background="https://img.freepik.com/premium-photo/blueprint-background-with-black-white-linesblack-map-city_1016228-3673.jpg">
+						<h3>Model-View-ViewModel (MVVM)</h3>
+						<ul>
+						   <li>Model - contains all of the business logic.
+						</li>
+						   <li>View - responsible for presenting information to users.
+						</li>
+						   <li>ViewModel - acts as an abstraction of the View’s state and behavior.
+						</li>
+						</ul>
+					   </section>
+					   <section data-background="https://img.freepik.com/premium-photo/blueprint-background-with-black-white-linesblack-map-city_1016228-3673.jpg">
+						<h3>Model-View-ViewModel (MVVM)</h3>
+						<img src="https://media.geeksforgeeks.org/wp-content/uploads/20201002215007/MVVMSchema-660x404.png" alt="Model-View-ViewModel (MVVM) Pattern">
+					</section>
+				</section>
+				<section data-markdown data-background="https://i.pinimg.com/originals/25/41/0f/25410fb2777963aa75e9a3f8ff44d495.jpg">
+					<textarea data-template>
+						## Comparison
+
+						| Feature          | MVC                | MVP                   | MVVM                  |
+						|------------------|--------------------|-----------------------|-----------------------|
+						| Controller       | Controller         | Presenter             | ViewModel             |
+						| Presenter        | N/A                | Separates concerns    | Binds View and Model  |
+						| Data Binding     | No                 | No                    | Yes                   |
+						| Testability      | Good               | Better                | Best                  |
+						| Flexibility      | Less flexible      | More flexible         | Highly flexible       |
+						
+						---
+						
+						## Conclusion
+						
+						- Choose the pattern based on the project requirements and constraints.
+						- MVC, MVP, and MVVM each offer unique benefits and are suitable for different scenarios.
+						- Understanding these patterns helps in designing robust and maintainable software systems.						
+					</textarea>
+				  </section>
 			</div>
 		</div>
 
